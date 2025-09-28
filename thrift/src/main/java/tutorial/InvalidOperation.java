@@ -24,7 +24,9 @@ public class InvalidOperation extends org.apache.thrift.TException implements or
     public int whatOp; // required
     public @org.apache.thrift.annotation.Nullable String why; // required
 
-    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    /**
+     * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+     */
     public enum _Fields implements org.apache.thrift.TFieldIdEnum {
         WHAT_OP((short) 1, "whatOp"),
         WHY((short) 2, "why");
@@ -153,7 +155,9 @@ public class InvalidOperation extends org.apache.thrift.TException implements or
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __WHATOP_ISSET_ID);
     }
 
-    /** Returns true if field whatOp is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field whatOp is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetWhatOp() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __WHATOP_ISSET_ID);
     }
@@ -176,7 +180,9 @@ public class InvalidOperation extends org.apache.thrift.TException implements or
         this.why = null;
     }
 
-    /** Returns true if field why is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field why is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetWhy() {
         return this.why != null;
     }
@@ -223,7 +229,9 @@ public class InvalidOperation extends org.apache.thrift.TException implements or
         throw new IllegalStateException();
     }
 
-    /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+     */
     @Override
     public boolean isSet(_Fields field) {
         if (field == null) {

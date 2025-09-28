@@ -281,7 +281,9 @@ public class SharedService {
 
         public int key; // required
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             KEY((short) 1, "key");
 
@@ -400,7 +402,9 @@ public class SharedService {
             __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __KEY_ISSET_ID);
         }
 
-        /** Returns true if field key is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field key is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetKey() {
             return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __KEY_ISSET_ID);
         }
@@ -434,7 +438,9 @@ public class SharedService {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -655,7 +661,9 @@ public class SharedService {
 
         public @org.apache.thrift.annotation.Nullable SharedStruct success; // required
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             SUCCESS((short) 0, "success");
 
@@ -771,7 +779,9 @@ public class SharedService {
             this.success = null;
         }
 
-        /** Returns true if field success is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field success is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetSuccess() {
             return this.success != null;
         }
@@ -807,7 +817,9 @@ public class SharedService {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {

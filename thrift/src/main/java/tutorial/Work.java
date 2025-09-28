@@ -11,7 +11,7 @@ package tutorial;
  * Structs are the basic complex data structures. They are comprised of fields
  * which each have an integer identifier, a type, a symbolic name, and an
  * optional default value.
- *
+ * <p>
  * Fields can be declared "optional", which ensures they will not be included
  * in the serialized output if they aren't set.  Note that this requires some
  * manual management in some languages.
@@ -38,7 +38,9 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
     public @org.apache.thrift.annotation.Nullable Operation op; // required
     public @org.apache.thrift.annotation.Nullable String comment; // optional
 
-    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    /**
+     * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+     */
     public enum _Fields implements org.apache.thrift.TFieldIdEnum {
         NUM1((short) 1, "num1"),
         NUM2((short) 2, "num2"),
@@ -195,7 +197,9 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __NUM1_ISSET_ID);
     }
 
-    /** Returns true if field num1 is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field num1 is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetNum1() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __NUM1_ISSET_ID);
     }
@@ -218,7 +222,9 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __NUM2_ISSET_ID);
     }
 
-    /** Returns true if field num2 is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field num2 is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetNum2() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __NUM2_ISSET_ID);
     }
@@ -249,7 +255,9 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
         this.op = null;
     }
 
-    /** Returns true if field op is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field op is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetOp() {
         return this.op != null;
     }
@@ -274,7 +282,9 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
         this.comment = null;
     }
 
-    /** Returns true if field comment is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field comment is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetComment() {
         return this.comment != null;
     }
@@ -343,7 +353,9 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
         throw new IllegalStateException();
     }
 
-    /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+     */
     @Override
     public boolean isSet(_Fields field) {
         if (field == null) {

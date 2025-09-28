@@ -773,7 +773,9 @@ public class Calculator {
         private static final org.apache.thrift.scheme.SchemeFactory TUPLE_SCHEME_FACTORY = new ping_argsTupleSchemeFactory();
 
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             ;
 
@@ -874,7 +876,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -1041,7 +1045,9 @@ public class Calculator {
         private static final org.apache.thrift.scheme.SchemeFactory TUPLE_SCHEME_FACTORY = new ping_resultTupleSchemeFactory();
 
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             ;
 
@@ -1142,7 +1148,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -1312,7 +1320,9 @@ public class Calculator {
         public int num1; // required
         public int num2; // required
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             NUM1((short) 1, "num1"),
             NUM2((short) 2, "num2");
@@ -1443,7 +1453,9 @@ public class Calculator {
             __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __NUM1_ISSET_ID);
         }
 
-        /** Returns true if field num1 is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field num1 is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetNum1() {
             return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __NUM1_ISSET_ID);
         }
@@ -1466,7 +1478,9 @@ public class Calculator {
             __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __NUM2_ISSET_ID);
         }
 
-        /** Returns true if field num2 is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field num2 is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetNum2() {
             return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __NUM2_ISSET_ID);
         }
@@ -1511,7 +1525,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -1780,7 +1796,9 @@ public class Calculator {
 
         public int success; // required
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             SUCCESS((short) 0, "success");
 
@@ -1899,7 +1917,9 @@ public class Calculator {
             __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __SUCCESS_ISSET_ID);
         }
 
-        /** Returns true if field success is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field success is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetSuccess() {
             return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __SUCCESS_ISSET_ID);
         }
@@ -1933,7 +1953,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -2157,7 +2179,9 @@ public class Calculator {
         public int logid; // required
         public @org.apache.thrift.annotation.Nullable Work w; // required
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             LOGID((short) 1, "logid"),
             W((short) 2, "w");
@@ -2287,7 +2311,9 @@ public class Calculator {
             __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __LOGID_ISSET_ID);
         }
 
-        /** Returns true if field logid is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field logid is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetLogid() {
             return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __LOGID_ISSET_ID);
         }
@@ -2310,7 +2336,9 @@ public class Calculator {
             this.w = null;
         }
 
-        /** Returns true if field w is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field w is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetW() {
             return this.w != null;
         }
@@ -2357,7 +2385,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -2641,7 +2671,9 @@ public class Calculator {
         public int success; // required
         public @org.apache.thrift.annotation.Nullable InvalidOperation ouch; // required
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             SUCCESS((short) 0, "success"),
             OUCH((short) 1, "ouch");
@@ -2771,7 +2803,9 @@ public class Calculator {
             __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __SUCCESS_ISSET_ID);
         }
 
-        /** Returns true if field success is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field success is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetSuccess() {
             return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __SUCCESS_ISSET_ID);
         }
@@ -2794,7 +2828,9 @@ public class Calculator {
             this.ouch = null;
         }
 
-        /** Returns true if field ouch is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field ouch is set (has been assigned a value) and false otherwise
+         */
         public boolean isSetOuch() {
             return this.ouch != null;
         }
@@ -2841,7 +2877,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {
@@ -3119,7 +3157,9 @@ public class Calculator {
         private static final org.apache.thrift.scheme.SchemeFactory TUPLE_SCHEME_FACTORY = new zip_argsTupleSchemeFactory();
 
 
-        /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+        /**
+         * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+         */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
             ;
 
@@ -3220,7 +3260,9 @@ public class Calculator {
             throw new java.lang.IllegalStateException();
         }
 
-        /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+        /**
+         * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+         */
         @Override
         public boolean isSet(_Fields field) {
             if (field == null) {

@@ -1,5 +1,6 @@
 package org.example;
 
+import org.springframework.stereotype.Component;
 import shared.SharedStruct;
 import tutorial.Calculator;
 import tutorial.InvalidOperation;
@@ -7,6 +8,7 @@ import tutorial.Work;
 
 import java.util.HashMap;
 
+@Component
 public class CalculatorHandler implements Calculator.Iface {
 
     private HashMap<Integer, SharedStruct> log;

@@ -32,7 +32,6 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
     public int num1; // required
     public int num2; // required
     /**
-     *
      * @see Operation
      */
     public @org.apache.thrift.annotation.Nullable Operation op; // required
@@ -45,7 +44,6 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
         NUM1((short) 1, "num1"),
         NUM2((short) 2, "num2"),
         /**
-         *
          * @see Operation
          */
         OP((short) 3, "op"),
@@ -234,7 +232,6 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
     }
 
     /**
-     *
      * @see Operation
      */
     @org.apache.thrift.annotation.Nullable
@@ -243,7 +240,6 @@ public class Work implements org.apache.thrift.TBase<Work, Work._Fields>, java.i
     }
 
     /**
-     *
      * @see Operation
      */
     public Work setOp(@org.apache.thrift.annotation.Nullable Operation op) {

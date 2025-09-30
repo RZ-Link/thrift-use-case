@@ -1,3 +1,3 @@
 ```shell
-thrift -r --gen java tutorial.thrift
+thrift-0.22.0.exe -r --gen java tutorial.thrift
 ```
